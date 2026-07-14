@@ -1,0 +1,53 @@
+# Generates a profile-stats SVG (languages + activity) and commits it to the repo, so the
+# README can embed a self-contained image served from GitHub (no render-time third-party call).
+# Rendered by lowlighter/metrics, pinned to a full commit SHA — never a floating tag on a
+# public repo (supply-chain hardening).
+#
+# TOKEN (METRICS_TOKEN): a READ-ONLY, PUBLIC-repo-scoped token. Fine-grained PAT with
+# read-only Contents + Metadata on public repositories, OR a classic PAT with only the
+# `public_repo` scope. It must NOT carry private-repo scope — a public-only token is the
+# control that keeps private repositories off a public profile (belt to the config's
+# `repositories_affiliations: owner` suspenders below).
+# FALLBACK: to avoid minting a PAT, replace `${{ secrets.METRICS_TOKEN }}` with
+# `${{ github.token }}` — base + languages + activity render on the built-in token for public
+# data (tighter API rate limits). The SVG commit already uses the built-in token
+# (metrics' `committer_token` defaults to `${{ github.token }}`) plus `contents: write` below.
+name: metrics
+
+on:
+  schedule:
+    - cron: "23 3 * * *"      # daily at 03:23 UTC (off-the-hour to dodge scheduler congestion)
+  workflow_dispatch:          # manual trigger — used for the first run (plan Step 3)
+
+# Serialize runs so a manual workflow_dispatch and the scheduled cron can never race on the
+# SVG commit (avoids a non-fast-forward push between two overlapping runs).
+concurrency:
+  group: metrics
+  cancel-in-progress: false
+
+# Least privilege: the only write the job performs is committing the generated SVG.
+permissions:
+  contents: write
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate profile metrics SVG
+        uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6  # v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: aberson
+
+          # Output: commit github-metrics.svg to the default branch (README embeds ./github-metrics.svg).
+          filename: github-metrics.svg
+          output_action: commit
+          committer_branch: main
+
+          # PUBLIC data only — owner-affiliated public repos; never surface private repositories.
+          repositories_affiliations: owner
+
+          # Content: header + recent activity (base sections) plus the languages breakdown.
+          base: header, activity
+          plugin_languages: "yes"   # quoted: keep it a string, not a YAML-truthy boolean
+          plugin_languages_limit: 8

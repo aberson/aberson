@@ -3,15 +3,15 @@
 # Rendered by lowlighter/metrics, pinned to a full commit SHA — never a floating tag on a
 # public repo (supply-chain hardening).
 #
-# TOKEN (METRICS_TOKEN): a READ-ONLY, PUBLIC-repo-scoped token. Fine-grained PAT with
-# read-only Contents + Metadata on public repositories, OR a classic PAT with only the
-# `public_repo` scope. It must NOT carry private-repo scope — a public-only token is the
-# control that keeps private repositories off a public profile (belt to the config's
-# `repositories_affiliations: owner` suspenders below).
-# FALLBACK: to avoid minting a PAT, replace `${{ secrets.METRICS_TOKEN }}` with
-# `${{ github.token }}` — base + languages + activity render on the built-in token for public
-# data (tighter API rate limits). The SVG commit already uses the built-in token
-# (metrics' `committer_token` defaults to `${{ github.token }}`) plus `contents: write` below.
+# TOKEN: uses the built-in `${{ github.token }}` — sufficient for base + languages + activity
+# over PUBLIC data (this config reads no private repos), so there is no secret to mint. The
+# built-in token is public-only by construction, which (with `repositories_affiliations: owner`
+# below) keeps private repositories off the public profile.
+# UPGRADE (optional): for higher GitHub API rate limits, mint a READ-ONLY public-repo-scoped
+# PAT (fine-grained: read-only Contents + Metadata on public repos; or classic `public_repo`
+# scope — never private-repo scope), store it as the `METRICS_TOKEN` secret, and set
+# `token: ${{ secrets.METRICS_TOKEN }}`. The SVG commit always uses `${{ github.token }}`
+# (metrics' `committer_token` default) plus `contents: write` below.
 name: metrics
 
 on:
@@ -36,7 +36,7 @@ jobs:
       - name: Generate profile metrics SVG
         uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6  # v3.34
         with:
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ github.token }}
           user: aberson
 
           # Output: commit github-metrics.svg to the default branch (README embeds ./github-metrics.svg).

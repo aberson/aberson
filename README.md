@@ -31,23 +31,13 @@ I treat agent work as a **pipeline with quality gates**: plan one step at a time
 isolation, review with independent adversarial passes, and only then ship. Much of it runs as a
 collection of Claude Code skills I use daily — open-sourced below.
 
-```mermaid
-flowchart LR
-    P["plan<br/>(init · feature · review)"] --> B["build<br/>(step · phase · queue)"]
-    B --> R["review<br/>(adversarial gates)"]
-    R --> S["ship<br/>(sync · update)"]
-    R -.->|needs work| B
-```
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/core-pipeline-dark.svg">
+  <img alt="The core pipeline: PLAN (plan-init or plan-feature, then plan-review, then plan-wrap), then SYNC to GitHub (repo-sync; first run repo-init), then BUILD (build-phase, build-step times N, review gates), then SHIP (acceptance UAT, then repo-update)." src="assets/core-pipeline-light.svg">
+</picture>
 
-| Stage | Skills |
-|---|---|
-| **Plan** | plan-init · plan-feature · plan-review · plan-wrap · plan-expedite |
-| **Build** | build-step · build-phase · build-queue |
-| **Review** | review-deep · review-gauntlet · review-proof |
-| **Ship** | repo-init · repo-sync · repo-update |
-
-Several use multi-agent fan-out — parallel reviewers, judge panels, and generate-then-grade loops
-— so a change clears independent scrutiny before it lands.
+Several skills use multi-agent fan-out — parallel reviewers, judge panels, and generate-then-grade
+loops — so a change clears independent scrutiny before it lands.
 
 → **[github.com/aberson/claude-skills](https://github.com/aberson/claude-skills)** — the full
 collection (planning, building, reviewing, and session tooling), with copy-pasteable workflows.

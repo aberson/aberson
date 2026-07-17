@@ -1,0 +1,38 @@
+{
+  "onbrandVersion": "0.1.0",
+  "schemaVersion": 1,
+  "sourceHash": "86cf09876d1947f0826f92680055383b106e7d1c87b1058fd6e777362fc617a1",
+  "sources": [
+    {
+      "path": "tokens.json",
+      "sha256": "1d19b89d59550aebf911af186aabc8fe1e6282139f3f0687b017270853188d12"
+    },
+    {
+      "path": "onbrand:templates/presets/house-docs/tokens.json",
+      "sha256": "dbf982a3f535177c877250ff14d4afa519f469cd1285cf6ce4a327c22bf550de"
+    },
+    {
+      "path": "modes.dark.json",
+      "sha256": "23ea8f42347cfa6bdce95944ea99db467dcbb93b57ddfc86906680c2004a2ca4"
+    }
+  ],
+  "emitters": [
+    "css",
+    "tw",
+    "ts",
+    "py",
+    "svg",
+    "components"
+  ],
+  "outputs": {
+    "components.css": "86cf09876d1947f0826f92680055383b106e7d1c87b1058fd6e777362fc617a1",
+    "diagram-palette.json": "86cf09876d1947f0826f92680055383b106e7d1c87b1058fd6e777362fc617a1",
+    "palette.svg": "86cf09876d1947f0826f92680055383b106e7d1c87b1058fd6e777362fc617a1",
+    "theme.ts": "86cf09876d1947f0826f92680055383b106e7d1c87b1058fd6e777362fc617a1",
+    "theme.tw.css": "86cf09876d1947f0826f92680055383b106e7d1c87b1058fd6e777362fc617a1",
+    "tokens.css": "86cf09876d1947f0826f92680055383b106e7d1c87b1058fd6e777362fc617a1",
+    "tokens.py": "86cf09876d1947f0826f92680055383b106e7d1c87b1058fd6e777362fc617a1"
+  },
+  "llm": "none",
+  "timestamp": "2026-07-17T17:12:07.836Z"
+}

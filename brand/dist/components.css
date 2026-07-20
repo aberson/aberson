@@ -26,8 +26,14 @@
     cursor: pointer;
   }
   .btn:hover {
-    background: var(--color-primitive-brand-10);
-    border-color: var(--color-primitive-brand-10);
+    /* Mode-adaptive hover: mixing the accent toward the (mode-flipping) text
+       color darkens it in light mode and lightens it in dark mode, so the hover
+       is always a visible step away from the base accent. The former
+       --color-primitive-brand-10 was a fixed step that equals the accent in dark
+       mode (accent maps to brand-10 there), giving primary buttons no hover
+       feedback. (M1 UAT finding.) */
+    background: color-mix(in oklab, var(--color-semantic-accent), var(--color-semantic-text) 14%);
+    border-color: color-mix(in oklab, var(--color-semantic-accent), var(--color-semantic-text) 14%);
   }
   .btn:focus-visible {
     outline: 2px solid var(--color-semantic-accent);

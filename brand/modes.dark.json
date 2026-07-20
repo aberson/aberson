@@ -9,18 +9,18 @@
     "$type": "color",
     "primitive": {
       "brand": {
-        "1": { "$value": "#0e1523" },
-        "2": { "$value": "#121a2b" },
-        "3": { "$value": "#16223a" },
-        "4": { "$value": "#1b2b4a" },
-        "5": { "$value": "#213659" },
-        "6": { "$value": "#2a4370" },
-        "7": { "$value": "#365490" },
-        "8": { "$value": "#4568ae" },
-        "9": { "$value": "#5c8ae6" },
-        "10": { "$value": "#6e9bff" },
-        "11": { "$value": "#93b4f2" },
-        "12": { "$value": "#dbe6fb" }
+        "1": { "$value": "#16171b" },
+        "2": { "$value": "#1d1f27" },
+        "3": { "$value": "#262938" },
+        "4": { "$value": "#31344e" },
+        "5": { "$value": "#3d426c" },
+        "6": { "$value": "#4b5190" },
+        "7": { "$value": "#5c63bf" },
+        "8": { "$value": "#7078f0" },
+        "9": { "$value": "#848dff" },
+        "10": { "$value": "#9aa6ff" },
+        "11": { "$value": "#b9c4ff" },
+        "12": { "$value": "#e7ebff" }
       },
       "neutral": {
         "1": { "$value": "#14181f" },
@@ -43,7 +43,7 @@
       "text": { "$value": "#edeff3" },
       "text-muted": { "$value": "#a4adbc" },
       "border": { "$value": "#333c4a" },
-      "accent": { "$value": "#6e9bff" },
+      "accent": { "$value": "#9aa6ff" },
       "code-bg": { "$value": "#232a35" },
       "shadow-color": { "$value": "#00000080" }
     },

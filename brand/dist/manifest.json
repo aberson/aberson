@@ -1,11 +1,11 @@
 {
   "onbrandVersion": "0.1.0",
   "schemaVersion": 1,
-  "sourceHash": "86cf09876d1947f0826f92680055383b106e7d1c87b1058fd6e777362fc617a1",
+  "sourceHash": "f584eeddce50e695076ffb6c93ba3c0ee829d73eefa9442e78a2a0860582f6b3",
   "sources": [
     {
       "path": "tokens.json",
-      "sha256": "1d19b89d59550aebf911af186aabc8fe1e6282139f3f0687b017270853188d12"
+      "sha256": "559aa57a3a2a85dc987d88ac07880af63809b4aa406796256d6c5c2f99c66639"
     },
     {
       "path": "onbrand:templates/presets/house-docs/tokens.json",
@@ -13,7 +13,7 @@
     },
     {
       "path": "modes.dark.json",
-      "sha256": "23ea8f42347cfa6bdce95944ea99db467dcbb93b57ddfc86906680c2004a2ca4"
+      "sha256": "0b26b5a538242582c4d939dcf31713488f1780ee6fb9d30b4de59e64b621e28c"
     }
   ],
   "emitters": [
@@ -25,14 +25,14 @@
     "components"
   ],
   "outputs": {
-    "components.css": "86cf09876d1947f0826f92680055383b106e7d1c87b1058fd6e777362fc617a1",
-    "diagram-palette.json": "86cf09876d1947f0826f92680055383b106e7d1c87b1058fd6e777362fc617a1",
-    "palette.svg": "86cf09876d1947f0826f92680055383b106e7d1c87b1058fd6e777362fc617a1",
-    "theme.ts": "86cf09876d1947f0826f92680055383b106e7d1c87b1058fd6e777362fc617a1",
-    "theme.tw.css": "86cf09876d1947f0826f92680055383b106e7d1c87b1058fd6e777362fc617a1",
-    "tokens.css": "86cf09876d1947f0826f92680055383b106e7d1c87b1058fd6e777362fc617a1",
-    "tokens.py": "86cf09876d1947f0826f92680055383b106e7d1c87b1058fd6e777362fc617a1"
+    "components.css": "f584eeddce50e695076ffb6c93ba3c0ee829d73eefa9442e78a2a0860582f6b3",
+    "diagram-palette.json": "f584eeddce50e695076ffb6c93ba3c0ee829d73eefa9442e78a2a0860582f6b3",
+    "palette.svg": "f584eeddce50e695076ffb6c93ba3c0ee829d73eefa9442e78a2a0860582f6b3",
+    "theme.ts": "f584eeddce50e695076ffb6c93ba3c0ee829d73eefa9442e78a2a0860582f6b3",
+    "theme.tw.css": "f584eeddce50e695076ffb6c93ba3c0ee829d73eefa9442e78a2a0860582f6b3",
+    "tokens.css": "f584eeddce50e695076ffb6c93ba3c0ee829d73eefa9442e78a2a0860582f6b3",
+    "tokens.py": "f584eeddce50e695076ffb6c93ba3c0ee829d73eefa9442e78a2a0860582f6b3"
   },
   "llm": "none",
-  "timestamp": "2026-07-17T17:12:07.836Z"
+  "timestamp": "2026-07-20T22:00:22.060Z"
 }

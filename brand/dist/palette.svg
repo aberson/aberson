@@ -7,42 +7,42 @@
     <rect x="0" y="0" width="320" height="2474" fill="#fcfcfd"/>
     <text x="14" y="36" font-family="sans-serif" font-size="16" font-weight="700" fill="#1f242c">Light</text>
     <text x="14" y="68" font-family="sans-serif" font-size="12" font-weight="700" fill="#1f242c">color.primitive.brand</text>
-    <rect x="14" y="82" width="22" height="22" rx="3" fill="#fbfcfe" stroke="#dcdfe6" stroke-width="1"/>
+    <rect x="14" y="82" width="22" height="22" rx="3" fill="#f8faff" stroke="#dcdfe6" stroke-width="1"/>
     <text x="48" y="97" font-family="sans-serif" font-size="12.5" fill="#1f242c">1</text>
-    <text x="306" y="97" text-anchor="end" font-family="ui-monospace, monospace" font-size="11.5" fill="#566070">#fbfcfe</text>
-    <rect x="14" y="112" width="22" height="22" rx="3" fill="#f5f7fc" stroke="#dcdfe6" stroke-width="1"/>
+    <text x="306" y="97" text-anchor="end" font-family="ui-monospace, monospace" font-size="11.5" fill="#566070">#f8faff</text>
+    <rect x="14" y="112" width="22" height="22" rx="3" fill="#f0f3ff" stroke="#dcdfe6" stroke-width="1"/>
     <text x="48" y="127" font-family="sans-serif" font-size="12.5" fill="#1f242c">2</text>
-    <text x="306" y="127" text-anchor="end" font-family="ui-monospace, monospace" font-size="11.5" fill="#566070">#f5f7fc</text>
-    <rect x="14" y="142" width="22" height="22" rx="3" fill="#e9eefa" stroke="#dcdfe6" stroke-width="1"/>
+    <text x="306" y="127" text-anchor="end" font-family="ui-monospace, monospace" font-size="11.5" fill="#566070">#f0f3ff</text>
+    <rect x="14" y="142" width="22" height="22" rx="3" fill="#e4e8fd" stroke="#dcdfe6" stroke-width="1"/>
     <text x="48" y="157" font-family="sans-serif" font-size="12.5" fill="#1f242c">3</text>
-    <text x="306" y="157" text-anchor="end" font-family="ui-monospace, monospace" font-size="11.5" fill="#566070">#e9eefa</text>
-    <rect x="14" y="172" width="22" height="22" rx="3" fill="#d9e2f5" stroke="#dcdfe6" stroke-width="1"/>
+    <text x="306" y="157" text-anchor="end" font-family="ui-monospace, monospace" font-size="11.5" fill="#566070">#e4e8fd</text>
+    <rect x="14" y="172" width="22" height="22" rx="3" fill="#d4dafc" stroke="#dcdfe6" stroke-width="1"/>
     <text x="48" y="187" font-family="sans-serif" font-size="12.5" fill="#1f242c">4</text>
-    <text x="306" y="187" text-anchor="end" font-family="ui-monospace, monospace" font-size="11.5" fill="#566070">#d9e2f5</text>
-    <rect x="14" y="202" width="22" height="22" rx="3" fill="#c4d3ef" stroke="#dcdfe6" stroke-width="1"/>
+    <text x="306" y="187" text-anchor="end" font-family="ui-monospace, monospace" font-size="11.5" fill="#566070">#d4dafc</text>
+    <rect x="14" y="202" width="22" height="22" rx="3" fill="#c0c9fb" stroke="#dcdfe6" stroke-width="1"/>
     <text x="48" y="217" font-family="sans-serif" font-size="12.5" fill="#1f242c">5</text>
-    <text x="306" y="217" text-anchor="end" font-family="ui-monospace, monospace" font-size="11.5" fill="#566070">#c4d3ef</text>
-    <rect x="14" y="232" width="22" height="22" rx="3" fill="#a9bfe6" stroke="#dcdfe6" stroke-width="1"/>
+    <text x="306" y="217" text-anchor="end" font-family="ui-monospace, monospace" font-size="11.5" fill="#566070">#c0c9fb</text>
+    <rect x="14" y="232" width="22" height="22" rx="3" fill="#aab5fc" stroke="#dcdfe6" stroke-width="1"/>
     <text x="48" y="247" font-family="sans-serif" font-size="12.5" fill="#1f242c">6</text>
-    <text x="306" y="247" text-anchor="end" font-family="ui-monospace, monospace" font-size="11.5" fill="#566070">#a9bfe6</text>
-    <rect x="14" y="262" width="22" height="22" rx="3" fill="#86a5d9" stroke="#dcdfe6" stroke-width="1"/>
+    <text x="306" y="247" text-anchor="end" font-family="ui-monospace, monospace" font-size="11.5" fill="#566070">#aab5fc</text>
+    <rect x="14" y="262" width="22" height="22" rx="3" fill="#8f9afc" stroke="#dcdfe6" stroke-width="1"/>
     <text x="48" y="277" font-family="sans-serif" font-size="12.5" fill="#1f242c">7</text>
-    <text x="306" y="277" text-anchor="end" font-family="ui-monospace, monospace" font-size="11.5" fill="#566070">#86a5d9</text>
-    <rect x="14" y="292" width="22" height="22" rx="3" fill="#5c84c7" stroke="#dcdfe6" stroke-width="1"/>
+    <text x="306" y="277" text-anchor="end" font-family="ui-monospace, monospace" font-size="11.5" fill="#566070">#8f9afc</text>
+    <rect x="14" y="292" width="22" height="22" rx="3" fill="#747cf5" stroke="#dcdfe6" stroke-width="1"/>
     <text x="48" y="307" font-family="sans-serif" font-size="12.5" fill="#1f242c">8</text>
-    <text x="306" y="307" text-anchor="end" font-family="ui-monospace, monospace" font-size="11.5" fill="#566070">#5c84c7</text>
-    <rect x="14" y="322" width="22" height="22" rx="3" fill="#3b63a8" stroke="#dcdfe6" stroke-width="1"/>
+    <text x="306" y="307" text-anchor="end" font-family="ui-monospace, monospace" font-size="11.5" fill="#566070">#747cf5</text>
+    <rect x="14" y="322" width="22" height="22" rx="3" fill="#5d60e3" stroke="#dcdfe6" stroke-width="1"/>
     <text x="48" y="337" font-family="sans-serif" font-size="12.5" fill="#1f242c">9</text>
-    <text x="306" y="337" text-anchor="end" font-family="ui-monospace, monospace" font-size="11.5" fill="#566070">#3b63a8</text>
-    <rect x="14" y="352" width="22" height="22" rx="3" fill="#33569a" stroke="#dcdfe6" stroke-width="1"/>
+    <text x="306" y="337" text-anchor="end" font-family="ui-monospace, monospace" font-size="11.5" fill="#566070">#5d60e3</text>
+    <rect x="14" y="352" width="22" height="22" rx="3" fill="#5152cd" stroke="#dcdfe6" stroke-width="1"/>
     <text x="48" y="367" font-family="sans-serif" font-size="12.5" fill="#1f242c">10</text>
-    <text x="306" y="367" text-anchor="end" font-family="ui-monospace, monospace" font-size="11.5" fill="#566070">#33569a</text>
-    <rect x="14" y="382" width="22" height="22" rx="3" fill="#2c4a86" stroke="#dcdfe6" stroke-width="1"/>
+    <text x="306" y="367" text-anchor="end" font-family="ui-monospace, monospace" font-size="11.5" fill="#566070">#5152cd</text>
+    <rect x="14" y="382" width="22" height="22" rx="3" fill="#3f3fa4" stroke="#dcdfe6" stroke-width="1"/>
     <text x="48" y="397" font-family="sans-serif" font-size="12.5" fill="#1f242c">11</text>
-    <text x="306" y="397" text-anchor="end" font-family="ui-monospace, monospace" font-size="11.5" fill="#566070">#2c4a86</text>
-    <rect x="14" y="412" width="22" height="22" rx="3" fill="#1a2b4d" stroke="#dcdfe6" stroke-width="1"/>
+    <text x="306" y="397" text-anchor="end" font-family="ui-monospace, monospace" font-size="11.5" fill="#566070">#3f3fa4</text>
+    <rect x="14" y="412" width="22" height="22" rx="3" fill="#1d1d54" stroke="#dcdfe6" stroke-width="1"/>
     <text x="48" y="427" font-family="sans-serif" font-size="12.5" fill="#1f242c">12</text>
-    <text x="306" y="427" text-anchor="end" font-family="ui-monospace, monospace" font-size="11.5" fill="#566070">#1a2b4d</text>
+    <text x="306" y="427" text-anchor="end" font-family="ui-monospace, monospace" font-size="11.5" fill="#566070">#1d1d54</text>
     <text x="14" y="456" font-family="sans-serif" font-size="12" font-weight="700" fill="#1f242c">color.primitive.neutral</text>
     <rect x="14" y="470" width="22" height="22" rx="3" fill="#fcfcfd" stroke="#dcdfe6" stroke-width="1"/>
     <text x="48" y="485" font-family="sans-serif" font-size="12.5" fill="#1f242c">1</text>
@@ -96,9 +96,9 @@
     <rect x="14" y="978" width="22" height="22" rx="3" fill="#dcdfe6" stroke="#dcdfe6" stroke-width="1"/>
     <text x="48" y="993" font-family="sans-serif" font-size="12.5" fill="#1f242c">border</text>
     <text x="306" y="993" text-anchor="end" font-family="ui-monospace, monospace" font-size="11.5" fill="#566070">#dcdfe6</text>
-    <rect x="14" y="1008" width="22" height="22" rx="3" fill="#3b63a8" stroke="#dcdfe6" stroke-width="1"/>
+    <rect x="14" y="1008" width="22" height="22" rx="3" fill="#5d60e3" stroke="#dcdfe6" stroke-width="1"/>
     <text x="48" y="1023" font-family="sans-serif" font-size="12.5" fill="#1f242c">accent</text>
-    <text x="306" y="1023" text-anchor="end" font-family="ui-monospace, monospace" font-size="11.5" fill="#566070">#3b63a8</text>
+    <text x="306" y="1023" text-anchor="end" font-family="ui-monospace, monospace" font-size="11.5" fill="#566070">#5d60e3</text>
     <rect x="14" y="1038" width="22" height="22" rx="3" fill="#f0f1f4" stroke="#dcdfe6" stroke-width="1"/>
     <text x="48" y="1053" font-family="sans-serif" font-size="12.5" fill="#1f242c">code-bg</text>
     <text x="306" y="1053" text-anchor="end" font-family="ui-monospace, monospace" font-size="11.5" fill="#566070">#f0f1f4</text>
@@ -232,42 +232,42 @@
     <rect x="0" y="0" width="320" height="2474" fill="#14181f"/>
     <text x="14" y="36" font-family="sans-serif" font-size="16" font-weight="700" fill="#edeff3">Dark</text>
     <text x="14" y="68" font-family="sans-serif" font-size="12" font-weight="700" fill="#edeff3">color.primitive.brand</text>
-    <rect x="14" y="82" width="22" height="22" rx="3" fill="#0e1523" stroke="#333c4a" stroke-width="1"/>
+    <rect x="14" y="82" width="22" height="22" rx="3" fill="#16171b" stroke="#333c4a" stroke-width="1"/>
     <text x="48" y="97" font-family="sans-serif" font-size="12.5" fill="#edeff3">1</text>
-    <text x="306" y="97" text-anchor="end" font-family="ui-monospace, monospace" font-size="11.5" fill="#a4adbc">#0e1523</text>
-    <rect x="14" y="112" width="22" height="22" rx="3" fill="#121a2b" stroke="#333c4a" stroke-width="1"/>
+    <text x="306" y="97" text-anchor="end" font-family="ui-monospace, monospace" font-size="11.5" fill="#a4adbc">#16171b</text>
+    <rect x="14" y="112" width="22" height="22" rx="3" fill="#1d1f27" stroke="#333c4a" stroke-width="1"/>
     <text x="48" y="127" font-family="sans-serif" font-size="12.5" fill="#edeff3">2</text>
-    <text x="306" y="127" text-anchor="end" font-family="ui-monospace, monospace" font-size="11.5" fill="#a4adbc">#121a2b</text>
-    <rect x="14" y="142" width="22" height="22" rx="3" fill="#16223a" stroke="#333c4a" stroke-width="1"/>
+    <text x="306" y="127" text-anchor="end" font-family="ui-monospace, monospace" font-size="11.5" fill="#a4adbc">#1d1f27</text>
+    <rect x="14" y="142" width="22" height="22" rx="3" fill="#262938" stroke="#333c4a" stroke-width="1"/>
     <text x="48" y="157" font-family="sans-serif" font-size="12.5" fill="#edeff3">3</text>
-    <text x="306" y="157" text-anchor="end" font-family="ui-monospace, monospace" font-size="11.5" fill="#a4adbc">#16223a</text>
-    <rect x="14" y="172" width="22" height="22" rx="3" fill="#1b2b4a" stroke="#333c4a" stroke-width="1"/>
+    <text x="306" y="157" text-anchor="end" font-family="ui-monospace, monospace" font-size="11.5" fill="#a4adbc">#262938</text>
+    <rect x="14" y="172" width="22" height="22" rx="3" fill="#31344e" stroke="#333c4a" stroke-width="1"/>
     <text x="48" y="187" font-family="sans-serif" font-size="12.5" fill="#edeff3">4</text>
-    <text x="306" y="187" text-anchor="end" font-family="ui-monospace, monospace" font-size="11.5" fill="#a4adbc">#1b2b4a</text>
-    <rect x="14" y="202" width="22" height="22" rx="3" fill="#213659" stroke="#333c4a" stroke-width="1"/>
+    <text x="306" y="187" text-anchor="end" font-family="ui-monospace, monospace" font-size="11.5" fill="#a4adbc">#31344e</text>
+    <rect x="14" y="202" width="22" height="22" rx="3" fill="#3d426c" stroke="#333c4a" stroke-width="1"/>
     <text x="48" y="217" font-family="sans-serif" font-size="12.5" fill="#edeff3">5</text>
-    <text x="306" y="217" text-anchor="end" font-family="ui-monospace, monospace" font-size="11.5" fill="#a4adbc">#213659</text>
-    <rect x="14" y="232" width="22" height="22" rx="3" fill="#2a4370" stroke="#333c4a" stroke-width="1"/>
+    <text x="306" y="217" text-anchor="end" font-family="ui-monospace, monospace" font-size="11.5" fill="#a4adbc">#3d426c</text>
+    <rect x="14" y="232" width="22" height="22" rx="3" fill="#4b5190" stroke="#333c4a" stroke-width="1"/>
     <text x="48" y="247" font-family="sans-serif" font-size="12.5" fill="#edeff3">6</text>
-    <text x="306" y="247" text-anchor="end" font-family="ui-monospace, monospace" font-size="11.5" fill="#a4adbc">#2a4370</text>
-    <rect x="14" y="262" width="22" height="22" rx="3" fill="#365490" stroke="#333c4a" stroke-width="1"/>
+    <text x="306" y="247" text-anchor="end" font-family="ui-monospace, monospace" font-size="11.5" fill="#a4adbc">#4b5190</text>
+    <rect x="14" y="262" width="22" height="22" rx="3" fill="#5c63bf" stroke="#333c4a" stroke-width="1"/>
     <text x="48" y="277" font-family="sans-serif" font-size="12.5" fill="#edeff3">7</text>
-    <text x="306" y="277" text-anchor="end" font-family="ui-monospace, monospace" font-size="11.5" fill="#a4adbc">#365490</text>
-    <rect x="14" y="292" width="22" height="22" rx="3" fill="#4568ae" stroke="#333c4a" stroke-width="1"/>
+    <text x="306" y="277" text-anchor="end" font-family="ui-monospace, monospace" font-size="11.5" fill="#a4adbc">#5c63bf</text>
+    <rect x="14" y="292" width="22" height="22" rx="3" fill="#7078f0" stroke="#333c4a" stroke-width="1"/>
     <text x="48" y="307" font-family="sans-serif" font-size="12.5" fill="#edeff3">8</text>
-    <text x="306" y="307" text-anchor="end" font-family="ui-monospace, monospace" font-size="11.5" fill="#a4adbc">#4568ae</text>
-    <rect x="14" y="322" width="22" height="22" rx="3" fill="#5c8ae6" stroke="#333c4a" stroke-width="1"/>
+    <text x="306" y="307" text-anchor="end" font-family="ui-monospace, monospace" font-size="11.5" fill="#a4adbc">#7078f0</text>
+    <rect x="14" y="322" width="22" height="22" rx="3" fill="#848dff" stroke="#333c4a" stroke-width="1"/>
     <text x="48" y="337" font-family="sans-serif" font-size="12.5" fill="#edeff3">9</text>
-    <text x="306" y="337" text-anchor="end" font-family="ui-monospace, monospace" font-size="11.5" fill="#a4adbc">#5c8ae6</text>
-    <rect x="14" y="352" width="22" height="22" rx="3" fill="#6e9bff" stroke="#333c4a" stroke-width="1"/>
+    <text x="306" y="337" text-anchor="end" font-family="ui-monospace, monospace" font-size="11.5" fill="#a4adbc">#848dff</text>
+    <rect x="14" y="352" width="22" height="22" rx="3" fill="#9aa6ff" stroke="#333c4a" stroke-width="1"/>
     <text x="48" y="367" font-family="sans-serif" font-size="12.5" fill="#edeff3">10</text>
-    <text x="306" y="367" text-anchor="end" font-family="ui-monospace, monospace" font-size="11.5" fill="#a4adbc">#6e9bff</text>
-    <rect x="14" y="382" width="22" height="22" rx="3" fill="#93b4f2" stroke="#333c4a" stroke-width="1"/>
+    <text x="306" y="367" text-anchor="end" font-family="ui-monospace, monospace" font-size="11.5" fill="#a4adbc">#9aa6ff</text>
+    <rect x="14" y="382" width="22" height="22" rx="3" fill="#b9c4ff" stroke="#333c4a" stroke-width="1"/>
     <text x="48" y="397" font-family="sans-serif" font-size="12.5" fill="#edeff3">11</text>
-    <text x="306" y="397" text-anchor="end" font-family="ui-monospace, monospace" font-size="11.5" fill="#a4adbc">#93b4f2</text>
-    <rect x="14" y="412" width="22" height="22" rx="3" fill="#dbe6fb" stroke="#333c4a" stroke-width="1"/>
+    <text x="306" y="397" text-anchor="end" font-family="ui-monospace, monospace" font-size="11.5" fill="#a4adbc">#b9c4ff</text>
+    <rect x="14" y="412" width="22" height="22" rx="3" fill="#e7ebff" stroke="#333c4a" stroke-width="1"/>
     <text x="48" y="427" font-family="sans-serif" font-size="12.5" fill="#edeff3">12</text>
-    <text x="306" y="427" text-anchor="end" font-family="ui-monospace, monospace" font-size="11.5" fill="#a4adbc">#dbe6fb</text>
+    <text x="306" y="427" text-anchor="end" font-family="ui-monospace, monospace" font-size="11.5" fill="#a4adbc">#e7ebff</text>
     <text x="14" y="456" font-family="sans-serif" font-size="12" font-weight="700" fill="#edeff3">color.primitive.neutral</text>
     <rect x="14" y="470" width="22" height="22" rx="3" fill="#14181f" stroke="#333c4a" stroke-width="1"/>
     <text x="48" y="485" font-family="sans-serif" font-size="12.5" fill="#edeff3">1</text>
@@ -321,9 +321,9 @@
     <rect x="14" y="978" width="22" height="22" rx="3" fill="#333c4a" stroke="#333c4a" stroke-width="1"/>
     <text x="48" y="993" font-family="sans-serif" font-size="12.5" fill="#edeff3">border</text>
     <text x="306" y="993" text-anchor="end" font-family="ui-monospace, monospace" font-size="11.5" fill="#a4adbc">#333c4a</text>
-    <rect x="14" y="1008" width="22" height="22" rx="3" fill="#6e9bff" stroke="#333c4a" stroke-width="1"/>
+    <rect x="14" y="1008" width="22" height="22" rx="3" fill="#9aa6ff" stroke="#333c4a" stroke-width="1"/>
     <text x="48" y="1023" font-family="sans-serif" font-size="12.5" fill="#edeff3">accent</text>
-    <text x="306" y="1023" text-anchor="end" font-family="ui-monospace, monospace" font-size="11.5" fill="#a4adbc">#6e9bff</text>
+    <text x="306" y="1023" text-anchor="end" font-family="ui-monospace, monospace" font-size="11.5" fill="#a4adbc">#9aa6ff</text>
     <rect x="14" y="1038" width="22" height="22" rx="3" fill="#232a35" stroke="#333c4a" stroke-width="1"/>
     <text x="48" y="1053" font-family="sans-serif" font-size="12.5" fill="#edeff3">code-bg</text>
     <text x="306" y="1053" text-anchor="end" font-family="ui-monospace, monospace" font-size="11.5" fill="#a4adbc">#232a35</text>

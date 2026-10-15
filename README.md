@@ -29,6 +29,11 @@ forecasting systems into large-scale finance operations.
 - **[applied_learning](https://github.com/aberson/applied_learning)** — hands-on ML ramps (diffusion, knowledge distillation) with runnable notebooks; distillation tied to real cost reduction. *Jupyter.*
 - **[walkies](https://github.com/aberson/walkies)** — a native dog-walking decision app fusing weather, air quality, and pavement temperature into a go/no-go verdict. *React Native, TypeScript.*
 
+### Writing
+
+- **[What My StarCraft II Bot Taught Me About Contract Drift](https://medium.com/@aberobison/what-my-starcraft-ii-bot-taught-me-about-contract-drift-9e3b368152cf)** — a postmortem from Alpha4Gate: the bot's trained network won an evaluation game against the built-in Easy AI, and its own evaluator logged the win as a crash. The bug lived in the handoff between two correct components (a changed ID shape); the lesson is to test the round trip end to end. *Medium, Oct 2026.*
+- **[A StarCraft II bot, now with more Jev](https://medium.com/@aberobison/my-starcraft-ii-bot-now-with-more-jev-5581c1ff03d2)** — a proof of concept: Typesafe's hosted Jev decision model answered in a median ~0.53 s, versus a median ~6.2 s for my April 2026 Claude advisor run as a CLI subprocess — fast enough to make strategic calls in a live real-time game while a local decision graph (~300 nodes, nine lanes) issues every command. *Medium, Oct 2026.*
+
 ### How I build with AI
 
 I treat agent work as a **pipeline with quality gates**: plan one step at a time, build each in

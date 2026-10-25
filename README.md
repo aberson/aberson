@@ -16,15 +16,27 @@ forecasting systems into large-scale finance operations.
 - **End to end** — research → models → data pipelines → UI → production
 - **Cost-aware AI** — local-model routing with fail-safe fallback; distillation and efficiency
 
+### Latest release: Skill Mesh v2
+
+[Skill Mesh v2.0.0](https://github.com/aberson/skill-mesh/releases/tag/v2.0.0) is out:
+57 skills for Claude Code, with 54 also packaged for GitHub Copilot and OpenAI Codex.
+Shared behavior contracts connect planning, implementation, independent review, and
+session continuity. Separate utility projects support retrieval, evidence, and validation.
+
+[Explore all 57 workflows](https://github.com/aberson/skill-mesh/tree/main/docs/workflows)
+· [Skill reference](https://github.com/aberson/skill-mesh/blob/main/documentation/skill-reference.md)
+· [Install v2](https://github.com/aberson/skill-mesh#install-or-upgrade)
+· [Portfolio case study](https://aberson.github.io/work/skill-mesh/)
+
 ### Selected projects
 
-- **[skill-mesh](https://github.com/aberson/skill-mesh)** — ~57 agent skills for planning, building, reviewing, and shipping software, run as a gated pipeline: plans are reviewed before they become issues, every build step clears independent calibrated reviewers, and acceptance is evidence-based. One behavior contract, three hosts — 54 skills run unmodified on Claude Code, GitHub Copilot, and OpenAI Codex (3 stay Claude-native). *Markdown skill contracts; Python + PowerShell tooling.*
+- **[Skill Mesh v2](https://github.com/aberson/skill-mesh)** — a released catalog of 57 agent skills for planning, building, reviewing, and shipping software. Shared contracts and host adapters package 54 portable skills for Claude Code, GitHub Copilot, and OpenAI Codex; three remain Claude-native. Required independent-review capabilities stay explicit. *Markdown contracts; Python + PowerShell tooling.*
 - **[Alpha4Gate](https://github.com/aberson/Alpha4Gate)** — a self-improving StarCraft II bot: a Claude-advised loop that reads its own telemetry and auto-commits fixes (gated by tests + validation games), plus a self-play arena with an Elo ladder. *Python, PyTorch/SB3, FastAPI, React.*
 - **[toybox](https://github.com/aberson/toybox)** — a local-first home AI: passive listening (VAD + Whisper) → intent detection → a branching activity engine → parent-approval UI → a kids' PWA with generated sprites and on-device TTS. Runs fully offline. *Python/FastAPI + React/TypeScript.*
 - **[pta_finance](https://github.com/aberson/pta_finance)** — a production finance toolkit for small nonprofits: Google Sheets as system-of-record, canonical ledger normalization, budget-vs-actual analytics, automated monthly reports. *Python, `mypy --strict`, GitHub Actions.*
 - **[measure-twice](https://github.com/aberson/measure-twice)** — a local benchmarking toolkit for deciding which model should do which job with measurements instead of assertions: author suites, sweep them across a model roster, score through calibrated instruments, and keep an evidence ledger that ties every routing claim to the run behind it — or honestly marks it `ASSERTED`. *Python, stdlib-only core, `mypy --strict`.*
 - **[citation-needed](https://github.com/aberson/citation-needed)** — gives every design choice buried in an LLM-facing file (skills, rules, `CLAUDE.md`, plans) a citation trail — research literature first, workspace provenance second — plus an anchored 0–100 score and a corpus that compounds across reviews. Reviews are read-only toward their targets; the CLI never calls an LLM. *Python, SQLite/FTS5.*
-- **Pipeline utilities** — seven single-purpose local-first CLIs the pipeline calls as advisory checks, each fail-open by construction so none can ever block a build: [tripwire](https://github.com/aberson/tripwire) (preflight checks for recorded failure modes), [changed-check](https://github.com/aberson/changed-check) (narrowest declared validation for a diff), [heads-up](https://github.com/aberson/heads-up) (expiring advisory claims so parallel sessions see each other), [paper-trail](https://github.com/aberson/paper-trail) (immutable decision records with explicit supersession), [find-again](https://github.com/aberson/find-again) (full-text retrieval over dev memory), [same-page](https://github.com/aberson/same-page) (deterministic status-contradiction detection), and [mesh-lens](https://github.com/aberson/mesh-lens) (dispatch-telemetry cohorts). *Python, `mypy --strict`.*
+- **Pipeline utilities** — separate local-first tools for inspection and coordination: [tripwire](https://github.com/aberson/tripwire), [changed-check](https://github.com/aberson/changed-check), [heads-up](https://github.com/aberson/heads-up), [paper-trail](https://github.com/aberson/paper-trail), [find-again](https://github.com/aberson/find-again), [same-page](https://github.com/aberson/same-page), and [mesh-lens](https://github.com/aberson/mesh-lens). The [v2 integration table](https://github.com/aberson/skill-mesh#how-utility-projects-are-used) distinguishes actual callers, optional helpers, and deferred hookups; not every utility is installed or wired by the skill release. *Python.*
 - **[shake_spear](https://github.com/aberson/shake_spear)** — a markdown-first creative-writing workshop: a stdlib-only `ss` CLI that scaffolds and manages independent story projects, with AI as coach and continuity assistant. The product is plain-markdown files on disk — no web app, no database, no API. *Python.*
 - **[applied_learning](https://github.com/aberson/applied_learning)** — hands-on ML ramps (diffusion, knowledge distillation) with runnable notebooks; distillation tied to real cost reduction. *Jupyter.*
 - **[walkies](https://github.com/aberson/walkies)** — a native dog-walking decision app fusing weather, air quality, and pavement temperature into a go/no-go verdict. *React Native, TypeScript.*
@@ -49,9 +61,13 @@ Several skills use multi-agent fan-out — parallel reviewers, judge panels, and
 loops — so a change clears independent scrutiny before it lands.
 
 → **[github.com/aberson/skill-mesh](https://github.com/aberson/skill-mesh)** — the full
-collection (planning, building, reviewing, and session tooling), with copy-pasteable workflows.
-The same skills run unmodified on Claude Code, GitHub Copilot, and OpenAI Codex from one behavior
-contract. The same pipeline drives a private, autonomous "issue → merged-PR" factory — happy to walk through it.
+collection, now released as v2 with installation guidance and source-linked diagrams
+generated through [Show Your Work](https://github.com/aberson/show-your-work).
+Portable skills share behavior contracts across three host adapters; native capabilities
+and external dependencies remain explicit. [Drift Ranger](https://github.com/aberson/drift-ranger)
+tracks intended outcomes, Find Again supports prior-work retrieval, and Citation Needed
+owns evidence records for the citation workflows. These tools support the gates;
+they do not replace independent review.
 
 ### GitHub activity
 

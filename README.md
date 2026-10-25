@@ -54,7 +54,7 @@ provider-neutral collection of agent skills I use daily — open-sourced as skil
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/core-pipeline-dark.svg">
-  <img alt="The core pipeline: PLAN (plan-init or plan-feature, then plan-review, then plan-wrap), then SYNC to GitHub (repo-sync; first run repo-init), then BUILD (build-phase, build-step times N, review gates), then SHIP (acceptance UAT, then repo-update)." src="assets/core-pipeline-light.svg">
+  <img alt="Plan, review, redline and wrap; sync issues and save a durable handoff; build-phase runs each build-step with its own checks, selected review lane and landing gates; acceptance and repository publishing follow." src="assets/core-pipeline-light.svg">
 </picture>
 
 Several skills use multi-agent fan-out — parallel reviewers, judge panels, and generate-then-grade

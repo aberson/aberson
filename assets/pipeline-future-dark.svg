@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 360" font-family="ui-monospace,'Cascadia Code','SF Mono',Consolas,monospace" role="img" aria-label="Where it is heading. One conversation on desktop or phone captures ideas, and notes can stay notes. Route advice (works today) and plan plus approval (works today) feed an outcome queue (being built). A scheduler (planned) starts approved work when capacity allows and lets urgent work preempt cleanly. Work runs on an isolated builder VM (being built now) with one builder, independent review and gated merge, supervised by a coordinator (planned) that routes questions back to me. A report with evidence and hygiene (planned; manual today) and live dashboards (planned) close the loop; my acceptance stays separate.">
+  <defs>
+    <marker id="ar-dark" markerWidth="9" markerHeight="9" refX="7.5" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 Z" fill="#384153"/></marker>
+    <marker id="ar-s-dark" markerWidth="10" markerHeight="10" refX="7.5" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#6E9BFF"/></marker>
+    <filter id="sh-dark" x="-20%" y="-45%" width="140%" height="190%"><feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="rgba(0,0,0,.5)"/></filter>
+  </defs>
+  <style>
+    .bg{fill:#161C26;stroke:#29313F;stroke-width:1.5}
+    .lnk{fill:none;stroke:#384153;stroke-width:1.7}
+    .spine{fill:none;stroke:#6E9BFF;stroke-width:2.4}
+    .node rect{fill:#161C26;stroke:#384153;stroke-width:1.4;filter:url(#sh-dark)}
+    .node.today rect{stroke:#6E9BFF;stroke-width:1.6}
+    .node.now rect{stroke:#6E9BFF;stroke-width:1.8;stroke-dasharray:6 4}
+    .node.planned rect{stroke:#384153;stroke-width:1.4;stroke-dasharray:3 4}
+    .pn{fill:#6E9BFF;font-size:13px;font-weight:600}
+    .planned .pn{fill:#9AA5B8}
+    .ps{fill:#9AA5B8;font-size:10.5px}
+    .lbl{fill:#9AA5B8;font-size:11px;letter-spacing:.12em;font-weight:600}
+    .cap{fill:#9AA5B8;font-size:10.5px}
+    .tag{fill:#6E9BFF;font-size:10px;font-weight:600;letter-spacing:.08em}
+  </style>
+<rect class="bg" x="6" y="6" width="988" height="348" rx="16"/>
+<text class="lbl" x="24" y="32">CAPTURE</text>
+<text class="lbl" x="280" y="32">PLAN</text>
+<text class="lbl" x="536" y="32">RUN</text>
+<text class="lbl" x="792" y="32">DELIVER</text>
+<g class="node planned"><rect x="24" y="46" width="200" height="62" rx="10"/><text class="pn" x="38" y="67">one conversation</text><text class="ps" x="38" y="85">desktop or phone</text><text class="ps" x="38" y="103">notes can stay notes</text></g>
+<path class="lnk" marker-end="url(#ar-dark)" d="M124,108 V122"/>
+<g class="node today"><rect x="24" y="122" width="200" height="48" rx="10"/><text class="pn" x="38" y="143">route advice</text><text class="ps" x="38" y="161">pipeline / goal / direct</text></g>
+<path class="spine" marker-end="url(#ar-s-dark)" d="M224,146 H252 V70 H280"/>
+<g class="node today"><rect x="280" y="46" width="200" height="48" rx="10"/><text class="pn" x="294" y="67">plan + approve</text><text class="ps" x="294" y="85">review, redline, wrap</text></g>
+<path class="lnk" marker-end="url(#ar-dark)" d="M380,94 V108"/>
+<g class="node now"><rect x="280" y="108" width="200" height="62" rx="10"/><text class="pn" x="294" y="129">outcome queue</text><text class="ps" x="294" y="147">priority + waiting reason</text><text class="ps" x="294" y="165">one place for all work</text></g>
+<path class="spine" marker-end="url(#ar-s-dark)" d="M480,139 H508 V70 H536"/>
+<g class="node planned"><rect x="536" y="46" width="200" height="62" rx="10"/><text class="pn" x="550" y="67">scheduler</text><text class="ps" x="550" y="85">starts when capacity frees</text><text class="ps" x="550" y="103">urgent work preempts cleanly</text></g>
+<path class="lnk" marker-end="url(#ar-dark)" d="M636,108 V122"/>
+<g class="node now"><rect x="536" y="122" width="200" height="80" rx="10"/><text class="pn" x="550" y="143">isolated builder</text><text class="ps" x="550" y="161">sandboxed VM, 1 builder</text><text class="ps" x="550" y="179">independent reviewers</text><text class="ps" x="550" y="197">merge only past gates</text></g>
+<text class="tag" x="690" y="140">NOW</text>
+<path class="lnk" marker-end="url(#ar-dark)" d="M636,216 V202"/>
+<g class="node planned"><rect x="536" y="216" width="200" height="48" rx="10"/><text class="pn" x="550" y="237">coordinator</text><text class="ps" x="550" y="255">questions back to me</text></g>
+<path class="spine" marker-end="url(#ar-s-dark)" d="M736,162 H764 V70 H792"/>
+<g class="node planned"><rect x="792" y="46" width="200" height="80" rx="10"/><text class="pn" x="806" y="67">report + hygiene</text><text class="ps" x="806" y="85">what changed + evidence</text><text class="ps" x="806" y="103">my acceptance separate</text><text class="ps" x="806" y="121">(manual today)</text></g>
+<path class="lnk" marker-end="url(#ar-dark)" d="M892,126 V140"/>
+<g class="node planned"><rect x="792" y="140" width="200" height="48" rx="10"/><text class="pn" x="806" y="161">live dashboards</text><text class="ps" x="806" y="179">status with freshness</text></g>
+<g class="node today"><rect x="24" y="282" width="26" height="14" rx="4"/></g><text class="ps" x="58" y="293">works today</text><g class="node now"><rect x="170" y="282" width="26" height="14" rx="4"/></g><text class="ps" x="204" y="293">being built now</text><g class="node planned"><rect x="340" y="282" width="26" height="14" rx="4"/></g><text class="ps" x="374" y="293">planned</text>
+<text class="cap" x="24" y="324">Future state: approved work queues and runs without me starting each stage; I answer questions and accept results.</text>
+<text class="cap" x="24" y="342">Every route keeps its project checks; nothing merges without passing them. Hosted 24/7 operation is out of scope.</text>
+</svg>

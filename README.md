@@ -52,6 +52,16 @@ I treat agent work as a **pipeline with quality gates**: plan one step at a time
 isolation, review with independent adversarial passes, and only then ship. Much of it runs as a
 provider-neutral collection of agent skills I use daily — open-sourced as skill-mesh.
 
+**Today, end to end** — from an idea to shipped work. Each idea gets a route: the full pipeline,
+a bounded goal, or a direct task. I start each stage; agents do the work inside it.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/pipeline-today-dark.svg">
+  <img alt="How work moves today: an idea is talked through in a live agent conversation and gets route advice. Core-pipeline work is planned, independently reviewed, redlined by me, wrapped and synced to issues; build-phase runs each build-step in an isolated worktree with tests, independent reviewers and landing gates. Bounded goals run with a budget and stop rule; direct tasks run inline with a named check. Results come to my acceptance, then wrap-up and hygiene." src="assets/pipeline-today-light.svg">
+</picture>
+
+**The core pipeline, zoomed in:**
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/core-pipeline-dark.svg">
   <img alt="Plan, review, redline and wrap; sync issues and save a durable handoff; build-phase runs each build-step with its own checks, selected review lane and landing gates; acceptance and repository publishing follow." src="assets/core-pipeline-light.svg">
@@ -59,6 +69,21 @@ provider-neutral collection of agent skills I use daily — open-sourced as skil
 
 Several skills use multi-agent fan-out — parallel reviewers, judge panels, and generate-then-grade
 loops — so a change clears independent scrutiny before it lands.
+
+<details>
+<summary><b>Where it's heading</b> — future state: approved work queues and runs without me starting each stage</summary>
+<br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/pipeline-future-dark.svg">
+  <img alt="Future state: one conversation on desktop or phone captures ideas. Route advice and plan approval work today; an outcome queue and an isolated builder VM are being built now; a scheduler, a coordinator that routes questions back to me, automatic reporting and live dashboards are planned. Every route keeps its project checks, and my acceptance stays separate." src="assets/pipeline-future-light.svg">
+</picture>
+
+Solid boxes work today, dashed blue boxes are being built now, and grey dashed boxes are planned.
+The current focus is the isolated builder: a sandboxed VM where an agent can build and test
+without reaching my own machine or home network.
+
+</details>
 
 → **[github.com/aberson/skill-mesh](https://github.com/aberson/skill-mesh)** — the full
 collection, now released as v2 with installation guidance and source-linked diagrams

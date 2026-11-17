@@ -1,11 +1,11 @@
 {
   "onbrandVersion": "0.1.0",
   "schemaVersion": 1,
-  "sourceHash": "f584eeddce50e695076ffb6c93ba3c0ee829d73eefa9442e78a2a0860582f6b3",
+  "sourceHash": "77f3b8a0b2aeb30ebb86c429385a65bd6d2a6fda933ae6fd39257e82392ce4f3",
   "sources": [
     {
       "path": "tokens.json",
-      "sha256": "559aa57a3a2a85dc987d88ac07880af63809b4aa406796256d6c5c2f99c66639"
+      "sha256": "1aefa33beb58630fbab3eb39fc6987a5bab17bbe7f0f651c9de5238f0361e10d"
     },
     {
       "path": "onbrand:templates/presets/house-docs/tokens.json",
@@ -13,7 +13,7 @@
     },
     {
       "path": "modes.dark.json",
-      "sha256": "0b26b5a538242582c4d939dcf31713488f1780ee6fb9d30b4de59e64b621e28c"
+      "sha256": "5d8177331030093cd1a5c060e3540eb5785fd45668207c186891cef3c27a086a"
     }
   ],
   "emitters": [
@@ -22,17 +22,19 @@
     "ts",
     "py",
     "svg",
-    "components"
+    "components",
+    "designmd"
   ],
   "outputs": {
-    "components.css": "f584eeddce50e695076ffb6c93ba3c0ee829d73eefa9442e78a2a0860582f6b3",
-    "diagram-palette.json": "f584eeddce50e695076ffb6c93ba3c0ee829d73eefa9442e78a2a0860582f6b3",
-    "palette.svg": "f584eeddce50e695076ffb6c93ba3c0ee829d73eefa9442e78a2a0860582f6b3",
-    "theme.ts": "f584eeddce50e695076ffb6c93ba3c0ee829d73eefa9442e78a2a0860582f6b3",
-    "theme.tw.css": "f584eeddce50e695076ffb6c93ba3c0ee829d73eefa9442e78a2a0860582f6b3",
-    "tokens.css": "f584eeddce50e695076ffb6c93ba3c0ee829d73eefa9442e78a2a0860582f6b3",
-    "tokens.py": "f584eeddce50e695076ffb6c93ba3c0ee829d73eefa9442e78a2a0860582f6b3"
+    "DESIGN.md": "77f3b8a0b2aeb30ebb86c429385a65bd6d2a6fda933ae6fd39257e82392ce4f3",
+    "components.css": "77f3b8a0b2aeb30ebb86c429385a65bd6d2a6fda933ae6fd39257e82392ce4f3",
+    "diagram-palette.json": "77f3b8a0b2aeb30ebb86c429385a65bd6d2a6fda933ae6fd39257e82392ce4f3",
+    "palette.svg": "77f3b8a0b2aeb30ebb86c429385a65bd6d2a6fda933ae6fd39257e82392ce4f3",
+    "theme.ts": "77f3b8a0b2aeb30ebb86c429385a65bd6d2a6fda933ae6fd39257e82392ce4f3",
+    "theme.tw.css": "77f3b8a0b2aeb30ebb86c429385a65bd6d2a6fda933ae6fd39257e82392ce4f3",
+    "tokens.css": "77f3b8a0b2aeb30ebb86c429385a65bd6d2a6fda933ae6fd39257e82392ce4f3",
+    "tokens.py": "77f3b8a0b2aeb30ebb86c429385a65bd6d2a6fda933ae6fd39257e82392ce4f3"
   },
   "llm": "none",
-  "timestamp": "2026-07-20T22:00:22.060Z"
+  "timestamp": "2026-08-09T01:50:23.151Z"
 }

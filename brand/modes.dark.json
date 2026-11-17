@@ -67,14 +67,14 @@
     },
     "chart": {
       "categorical": {
-        "1": { "$value": "#6e9bff" },
-        "2": { "$value": "#e8975a" },
-        "3": { "$value": "#5fbd88" },
-        "4": { "$value": "#ee8277" },
-        "5": { "$value": "#b195dd" },
-        "6": { "$value": "#54bdbd" },
-        "7": { "$value": "#d9b24a" },
-        "8": { "$value": "#e08ebc" }
+        "1": { "$value": "#9ca9ff" },
+        "2": { "$value": "#82bddf" },
+        "3": { "$value": "#79c9bd" },
+        "4": { "$value": "#bea5ed" },
+        "5": { "$value": "#e3a1c2" },
+        "6": { "$value": "#dfa17c" },
+        "7": { "$value": "#b6c97c" },
+        "8": { "$value": "#a9b7d0" }
       },
       "sequential": {
         "1": { "$value": "#16223a" },

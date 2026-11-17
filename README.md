@@ -1,13 +1,16 @@
 ## Abraham Robison
 
-**Applied AI engineer with deep finance roots.** I design and ship agentic, full-stack AI
-systems — autonomous, judge-gated, cost-aware — and ground them in real financial work:
-treasury, forecasting, portfolio, risk, and valuation.
+**AI enablement for finance, and agentic engineering.** I help finance organizations put AI
+to work, and I design and ship agentic, full-stack AI systems — autonomous, judge-gated,
+cost-aware — grounded in real financial work: treasury, forecasting, portfolio, risk, and valuation.
 
-Currently an **Applied AI Scientist (contract) at FEV**, building AI and data tooling for
-private-asset valuation. Previously **Senior Quantitative Analyst, Treasury at Google** and
-**Senior Quantitative Research Analyst at Russell Investments**, shipping applied-ML and
-forecasting systems into large-scale finance operations.
+Most recently an **Applied AI Scientist (contract) at FEV**, building AI and data tooling for
+private-asset valuation. Before that, **Senior Quantitative Analyst, Treasury at Google**, where I
+led AI enablement for the finance org: I co-founded Treasury's AI/ML/Automation group, which vetted
+SME ideas and got 2–5 AI projects a year funded and built, and I built DocIt, which turns training
+videos into workflow documentation (~1,000 FTE hours a year saved). Earlier, **Senior Quantitative
+Research Analyst at Russell Investments**, shipping applied-ML and forecasting systems into
+large-scale finance operations.
 
 ### What I build
 
@@ -18,20 +21,20 @@ forecasting systems into large-scale finance operations.
 
 ### Latest release: Skill Mesh v3
 
-[Skill Mesh v3.0.0](https://github.com/aberson/skill-mesh/releases/tag/v3.0.0) is out. The
-catalog now holds 46 skills for Claude Code, with 44 also packaged for OpenAI Codex (GitHub
-Copilot support is deprecated; v3.0.0 is its last release).
+[Skill Mesh v3.0.2](https://github.com/aberson/skill-mesh/releases/tag/v3.0.2) is the latest
+release. The catalog now holds 47 skills for Claude Code, with 45 also packaged for OpenAI Codex
+(GitHub Copilot support is deprecated; v3.0.0 was its last release).
 Shared behavior contracts connect planning, implementation, independent review, and
 session continuity. Separate utility projects support retrieval, evidence, and validation.
 
-[Explore all 46 workflows](https://github.com/aberson/skill-mesh/tree/main/docs/workflows)
+[Explore all 47 workflows](https://github.com/aberson/skill-mesh/tree/main/docs/workflows)
 · [Skill reference](https://github.com/aberson/skill-mesh/blob/main/documentation/skill-reference.md)
 · [Install v3](https://github.com/aberson/skill-mesh#install-or-upgrade)
 · [Portfolio case study](https://aberson.github.io/work/skill-mesh/)
 
 ### Selected projects
 
-- **[Skill Mesh v3](https://github.com/aberson/skill-mesh)** — a released catalog of 46 agent skills for planning, building, reviewing, and shipping software. Shared contracts and host adapters package 44 portable skills for Claude Code and OpenAI Codex (GitHub Copilot deprecated, last shipped in v3.0.0); two remain Claude-native. Required independent-review capabilities stay explicit. *Markdown contracts; Python + PowerShell tooling.*
+- **[Skill Mesh v3](https://github.com/aberson/skill-mesh)** — a released catalog of 47 agent skills for planning, building, reviewing, and shipping software. Shared contracts and host adapters package 45 portable skills for Claude Code and OpenAI Codex (GitHub Copilot deprecated, last shipped in v3.0.0); two remain Claude-native. Required independent-review capabilities stay explicit. *Markdown contracts; Python + PowerShell tooling.*
 - **[Alpha4Gate](https://github.com/aberson/Alpha4Gate)** — a self-improving StarCraft II bot: a Claude-advised loop that reads its own telemetry and auto-commits fixes (gated by tests + validation games), plus a self-play arena with an Elo ladder. *Python, PyTorch/SB3, FastAPI, React.*
 - **[toybox](https://github.com/aberson/toybox)** — a local-first home AI: passive listening (VAD + Whisper) → intent detection → a branching activity engine → parent-approval UI → a kids' PWA with generated sprites and on-device TTS. Runs fully offline. *Python/FastAPI + React/TypeScript.*
 - **[np-finance](https://github.com/aberson/np-finance)** — a finance toolkit for non-profits: Google Sheets budgets, reimbursement review, and a coordinated five-report set. *Python, `mypy --strict`, GitHub Actions.*
